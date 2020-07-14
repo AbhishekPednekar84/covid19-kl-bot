@@ -1,0 +1,11 @@
+language: python
+python:
+- '3.7'
+install:
+- pip install -r requirements.txt
+script:
+- pytest
+notifications:
+  slack:
+    rooms:
+      secure: y444T97O5g8Izb8dm/fJ13o3MLuOn8XIrkffKJinPnzq7ZosqI2vWaFgnyRrxCJInDmvz4spU/iGnyh0a942WExbs4KDpxAlaa01uve1iGsvXDiKJoeuhCY6l9FPP6QI4MqlKJQIRYPe+Bmrr8/+tGTyrloRL8JoVz/glGgCZtRUrmsgSTjjF6g7BU24bK0kbXfDxXdqyKQsBp+4lr4kinoOBqv67/V3k7bFl59qLJbzQ5+Veqc33sJSpO96q8gW4NANuvTDIvaGnkaBoUnqf7RY+l54lC6zfyLcHfcCucUJ2OClxFvTRlRDREW0OVsLxifWubFpR6e5/K2zbBwdGy3HzRHlmCDDg4oM1X5uMqeehjUp48PeMrce0N2ioj8sWkWx4JapyIEJjHWwBnSNdxHfWBnY6OudPK0qr1hLbQ3NQok57B2u58DS7+pmio/hC6xIavIbGuREbS8fQC+E1XY8oUzoPAadQ0fOj76E0AFM29mdqWnoAg4VWLo3fGEYfv7NWIvU8mYWaTZCkTb+fIxzLaflcIc6qFeVWfM3eX10jSGHyPXT4TK2uzQ0lFo7jve6FJo6LYg0qpB9kR29/E6isNtEWk827uGdlsuQ/b2vYquaO/KvWrI3/qQklEzLkNk+dOgdA5alkt5tBdSK3EKoEeCdMCc1Kx/35duv+dM=
