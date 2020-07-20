@@ -1,5 +1,7 @@
 # Kerala COVID19 Counts - Telegram Bot
 
+[![Build Status](https://travis-ci.org/AbhishekPednekar84/covid19-kl-bot.svg?branch=master)](https://travis-ci.org/AbhishekPednekar84/covid19-kl-bot)
+
 This repository contains the Python (v3.7) code for the [Kerala COVID19 Counts Telegram bot](https://t.me/KeralaCovid19Bot).
 
 ## Using the bot
