@@ -1,5 +1,7 @@
 # Kerala COVID19 Counts - Telegram Bot
 
+[![Build Status](https://travis-ci.org/AbhishekPednekar84/covid19-kl-bot.svg?branch=master)](https://travis-ci.org/AbhishekPednekar84/covid19-kl-bot)
+
 This repository contains the Python (v3.7) code for the [Kerala COVID19 Counts Telegram bot](https://t.me/KeralaCovid19Bot).
 
 ## Using the bot
@@ -22,3 +24,7 @@ This repository contains the Python (v3.7) code for the [Kerala COVID19 Counts T
 5. Create a `.env` file and add an environment variable called `TELEGRAM_TOKEN` (refer to `.env.example`)
 6. Run the code - `python bot/server.py` or `python3 bot/server.py`
 7. To run the tests - `pytest`
+
+---
+
+<p align="center"><img src="https://github.com/AbhishekPednekar84/covid19-kl-bot/blob/master/images/screenshot.jpg" alt="bot"></p>
