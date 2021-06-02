@@ -22,6 +22,6 @@ requests==2.23.0
 requests-mock==1.8.0
 six==1.15.0
 tornado==6.0.4
-urllib3==1.25.9
+urllib3==1.26.5
 wcwidth==0.2.4
 zipp==3.1.0
